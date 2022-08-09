@@ -1,3 +1,5 @@
+require_dependency 'lib/issue_ext_id_plugin/hooks'
+
 Redmine::Plugin.register :issue_ext_id_plugin do
   name 'Issue Ext Id Plugin plugin'
   author 'Author name'
