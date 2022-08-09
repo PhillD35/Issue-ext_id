@@ -13,7 +13,7 @@ bundle exec rake redmine:plugins:migrate
 Для удаления плагина запустить команду
 
 ```
-budnle exec rake redmine:plugins:migrate NAME=ext_id_plugin VERSION=0
+budnle exec rake redmine:plugins:migrate NAME=issue_ext_id_plugin VERSION=0
 ```
 
 И затем удалить код плагина из папки `/plugins`
